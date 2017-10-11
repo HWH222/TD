@@ -1,0 +1,910 @@
+﻿Log file open, 10/10/17 11:39:53
+LogInit:Display: Running engine for game: 考核2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1332881686) SRandInit(1332881686).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.098137
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: E:/UNREAL/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.10-03.39.54:808][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.10-03.39.54:808][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.10-03.39.54:835][  0]LogInit: Computer: MSI
+[2017.10.10-03.39.54:835][  0]LogInit: User: 全世界最帅的人
+[2017.10.10-03.39.54:835][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.10.10-03.39.54:835][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.10.10-03.39.54:836][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.10-03.39.54:836][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.10-03.39.54:836][  0]LogMemory: Process Physical Memory: 262.90 MB used, 262.90 MB peak
+[2017.10.10-03.39.54:836][  0]LogMemory: Process Virtual Memory: 262.57 MB used, 262.57 MB peak
+[2017.10.10-03.39.54:836][  0]LogMemory: Physical Memory: 3779.12 MB used,  4288.77 MB free, 8067.88 MB total
+[2017.10.10-03.39.54:836][  0]LogMemory: Virtual Memory: 644.02 MB used,  4288.77 MB free, 134217728.00 MB total
+[2017.10.10-03.39.55:260][  0]LogInit: Overriding culture zh-CN with editor configuration.
+[2017.10.10-03.39.55:352][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (E:/UNREAL/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (用于引用此节点中的资源的累积时间)
+Localization Resource: (E:/UNREAL/Epic Games/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (502993589) Localized String: (引用该节点中资源所用的累计时间)
+[2017.10.10-03.39.55:352][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (E:/UNREAL/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (若为真，在状态中寻找最高权重动画的“相关动画”节点将忽视 此节点)
+Localization Resource: (E:/UNREAL/Epic Games/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (319969718) Localized String: (如果为真，那么将会忽略查找最高权重动画的"相关动画"节点。
+这个节点)
+[2017.10.10-03.39.55:352][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (E:/UNREAL/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (此节点最后交会的混合权重)
+Localization Resource: (E:/UNREAL/Epic Games/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1232800293) Localized String: (该节点上一次遇到的混合权重)
+[2017.10.10-03.39.55:936][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.10-03.39.56:037][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.10.10-03.39.56:037][  0]LogD3D11RHI:       3019/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.10-03.39.56:049][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.10-03.39.56:049][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.10-03.39.56:052][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.10-03.39.56:052][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.10-03.39.56:052][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.10-03.39.56:061][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.10-03.39.56:062][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.10-03.39.56:062][  0]LogWindows: EnumDisplayDevices:
+[2017.10.10-03.39.56:062][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.10-03.39.56:065][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.10-03.39.56:067][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.10-03.39.56:070][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.10.10-03.39.56:072][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.10.10-03.39.56:074][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.10.10-03.39.56:076][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.10.10-03.39.56:078][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.10-03.39.56:078][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.10.10-03.39.56:078][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.10.10-03.39.56:078][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.10.10-03.39.56:078][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.10-03.39.56:122][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.10-03.39.56:136][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.10-03.39.56:138][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../../UnrealWorks/考核2/Intermediate/Shaders/WorkingDirectory/10308/).
+[2017.10.10-03.39.56:138][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/姐姐的狗/AppData/Local/Temp/UnrealShaderWorkingDir/47AF819F4D758ABAA2B0CDBDFA818EEF/'.
+[2017.10.10-03.39.56:138][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.10-03.39.58:367][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.10-03.39.58:466][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.10-03.39.58:563][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.10-03.39.58:660][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.10-03.39.58:755][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.10-03.39.58:856][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.10-03.39.58:941][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.10-03.39.59:032][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.10-03.39.59:108][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.10-03.39.59:215][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.10-03.39.59:328][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.10-03.39.59:419][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.10-03.39.59:506][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.10-03.39.59:600][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.10-03.39.59:679][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.10-03.39.59:867][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.10-03.39.59:867][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.10-03.39.59:927][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.10-03.40.00:087][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.10-03.40.00:152][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.10-03.40.00:241][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.10-03.40.00:322][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.10-03.40.00:415][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.10-03.40.00:496][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.10-03.40.00:496][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.10-03.40.01:122][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.10-03.40.01:205][  0]LogDerivedDataCache: Loaded boot cache 0.08s 50MB C:/Users/姐姐的狗/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.10-03.40.01:205][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/姐姐的狗/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.10.10-03.40.01:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealWorks/考核2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.10-03.40.01:205][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.10-03.40.01:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealWorks/考核2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.10-03.40.01:205][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.10-03.40.01:248][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.10-03.40.01:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/姐姐的狗/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.10-03.40.01:277][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.10-03.40.01:278][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.10-03.40.01:278][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.10-03.40.01:753][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.10-03.40.01:759][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.10-03.40.02:151][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.10-03.40.02:235][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.10-03.40.02:297][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.10-03.40.02:297][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.10-03.40.02:297][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.10-03.40.03:207][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: 考核2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3893726319
+[2017.10.10-03.40.03:274][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.10.10-03.40.03:578][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.262596 seconds
+[2017.10.10-03.40.03:586][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.10.10-03.40.03:586][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.10.10-03.40.03:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.10-03.40.03:676][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.10-03.40.06:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.10-03.40.06:351][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.10-03.40.07:107][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.10-03.40.07:752][  0]SourceControl: 信息 源码控制已禁用
+[2017.10.10-03.40.08:061][  0]SourceControl: 信息 源码控制已禁用
+[2017.10.10-03.40.08:140][  0]SourceControl: 信息 源码控制已禁用
+[2017.10.10-03.40.08:218][  0]SourceControl: 信息 源码控制已禁用
+[2017.10.10-03.40.10:167][  0]LogEngine: Initializing Engine...
+[2017.10.10-03.40.10:169][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.10-03.40.10:576][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.10-03.40.10:643][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.10.10-03.40.11:365][  0]LogInit: FAudioDevice initialized.
+[2017.10.10-03.40.11:405][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/姐姐的狗/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.10-03.40.11:414][  0]LogInit: Texture streaming: Enabled
+[2017.10.10-03.40.11:553][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.10-03.40.11:717][  0]LogInit: Transaction tracking system initialized
+[2017.10.10-03.40.12:197][  0]BlueprintLog: New page: 编辑器加载
+[2017.10.10-03.40.13:595][  0]LocalizationService: 信息 本地化服务已被禁用
+[2017.10.10-03.40.14:591][  0]LogConsoleResponse:Display: 
+[2017.10.10-03.40.14:803][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.10-03.40.14:803][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.10-03.40.15:564][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealWorks/考核2/Content/' took 0.02s
+[2017.10.10-03.40.16:205][  0]SourceControl: 信息 源码控制已禁用
+[2017.10.10-03.40.16:205][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.10-03.40.16:206][  0]LightingResults: New page: 光照构建
+[2017.10.10-03.40.16:260][  0]MapCheck: New page: 地图检测
+[2017.10.10-03.40.16:260][  0]LightingResults: New page: 光照构建
+[2017.10.10-03.40.17:108][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入操作事件对 InputAction Crouch 引用了未知操作'Crouch'
+[2017.10.10-03.40.17:108][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入操作事件对 InputAction Jump 引用了未知操作'Jump'
+[2017.10.10-03.40.17:109][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis MoveForward 的位置坐标轴'MoveForward' 
+[2017.10.10-03.40.17:109][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis LookUp 的位置坐标轴'LookUp' 
+[2017.10.10-03.40.17:109][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis Turn 的位置坐标轴'Turn' 
+[2017.10.10-03.40.17:110][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis MoveRight 的位置坐标轴'MoveRight' 
+[2017.10.10-03.40.17:114][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 [0025.52] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 28 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.10.10-03.40.17:114][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 [0025.52] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.10.10-03.40.17:114][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 [0025.52] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.10.10-03.40.17:324][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入操作事件对 InputAction Crouch 引用了未知操作'Crouch'
+[2017.10.10-03.40.17:324][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入操作事件对 InputAction Jump 引用了未知操作'Jump'
+[2017.10.10-03.40.17:324][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis MoveForward 的位置坐标轴'MoveForward' 
+[2017.10.10-03.40.17:324][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis LookUp 的位置坐标轴'LookUp' 
+[2017.10.10-03.40.17:324][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis Turn 的位置坐标轴'Turn' 
+[2017.10.10-03.40.17:325][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 输入轴事件引用了 InputAxis MoveRight 的位置坐标轴'MoveRight' 
+[2017.10.10-03.40.17:330][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 [0025.73] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 19 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.10.10-03.40.17:330][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 [0025.73] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.10.10-03.40.17:332][  0]LogBlueprint:Warning: [Compiler Ue4ASP_Character] 警告 [0025.73] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 1 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.10.10-03.40.18:969][  0]LogAIModule: Creating AISystem for world test01
+[2017.10.10-03.40.19:074][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.10-03.40.19:112][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.10-03.40.19:162][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时50.556毫秒完成。
+[2017.10.10-03.40.19:162][  0]LogFileHelpers: Loading map 'test01' took 2.957
+[2017.10.10-03.40.19:276][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.10.10-03.40.20:282][  0]LogCollectionManager: Loaded 0 collections in 0.002317 seconds
+[2017.10.10-03.40.20:478][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealWorks/考核2/Saved/Collections/' took 0.01s
+[2017.10.10-03.40.20:478][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealWorks/考核2/Content/Developers/全世界最帅的人/Collections/' took 0.01s
+[2017.10.10-03.40.20:478][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealWorks/考核2/Content/Collections/' took 0.01s
+[2017.10.10-03.40.20:478][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.10.10-03.40.20:494][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2245 classes and 452 folders.
+[2017.10.10-03.40.20:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.10-03.40.20:517][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.10-03.40.20:620][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.10-03.40.21:317][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.10-03.40.21:808][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.10-03.40.21:861][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2017.10.10-03.40.21:960][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.10.10-03.40.21:960][  0]LogLoad: (Engine Initialization) Total time: 30.36 seconds
+[2017.10.10-03.40.21:960][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.55 seconds
+[2017.10.10-03.40.21:960][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.10-03.40.21:960][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.10-03.40.21:979][  0]LogOcInput: OculusInput pre-init called
+[2017.10.10-03.40.22:090][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.10-03.40.22:092][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.10-03.40.22:096][  0]LogSlate: Took 0.003883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.10-03.40.22:109][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.10-03.40.22:504][  0]LogRenderer: Reallocating scene render targets to support 836x728 NumSamples 1 (Frame:2).
+[2017.10.10-03.40.22:838][  3]LogAssetRegistry: Asset discovery search completed in 19.5865 seconds
+[2017.10.10-03.40.22:838][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.10.10-03.40.22:838][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.10.10-03.40.23:016][ 10]LogSlate: Took 0.008684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-03.40.55:558][948]LogEditorViewport: Clicking on Actor (LMB): BP_Tower_C (BP_Tower)
+[2017.10.10-03.40.55:724][948]LogSlate: Took 0.014365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.10-03.40.56:874][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Tower_C (BP_Tower)
+[2017.10.10-03.41.12:963][950]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
+[2017.10.10-03.41.17:322][181]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.10-03.42.21:806][  3]LogSlate: Took 0.015182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.10-03.42.28:956][425]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-03.42.32:905][654]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-03.42.33:689][654]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.10-03.42.34:124][654]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.10.10-03.42.39:179][808]LogSlate: Took 0.021062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.10-03.43.00:440][837]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.10.10-03.43.00:583][839]LogTemp:Display: IPP ERROR: Illegal character in bundle ID
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: Usage: iPhonePackager <Command> <GameName> [RPCCommand &| Switch]
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: 
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: Common commands:
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... RepackageIPA GameName
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... PackageIPA GameName
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... PackageApp GameName
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... Deploy PathToIPA
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... RepackageFromStage GameName
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... Devices
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... Validate
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display:  ... Install
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: 
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: Configuration switches:
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: 	 -stagedir <path>		  sets the directory to copy staged files from (defaults to none)
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: 	 -project <path>		  path to the project being packaged
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: 	 -compress=fast|best|none  packaging compression level (defaults to none)
+
+[2017.10.10-03.43.00:583][839]LogTemp:Display: 	 -strip					strip symbols during packaging
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 	 -config				   game configuration (e.g., Shipping, Development, etc...)
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 	 -distribution			 packaging for final distribution
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 	 -createstub			   packaging stub IPA for later repackaging
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 	 -mac <MacName>			overrides the machine to use for any Mac operations
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 	 -arch <Architecture>	  sets the architecture to use (blank for default, -simulator for simulator builds)
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 	 -device <DeviceID>		sets the device to install the IPA on
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: Commands: RPC, Clean
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display:   StageMacFiles, GetIPA, Deploy, Install, Uninstall
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: RPC Commands: SetExec, InstallProvision, MakeApp, DeleteIPA, Copy, Kill, Strip, Zip, GenDSYM
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: 
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display: Sample commandlines:
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display:  ... iPhonePackager Deploy UDKGame Release
+
+[2017.10.10-03.43.00:584][839]LogTemp:Display:  ... iPhonePackager RPC SwordGame Shipping MakeApp
+
+[2017.10.10-03.43.08:744][221]LogSlate: Took 0.110598 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2017.10.10-03.43.11:128][319]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.10-03.43.11:138][319]LogSlate: Took 0.006968 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.10-03.43.11:143][319]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.10-03.43.11:156][319]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.10-03.43.11:161][319]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-03.43.12:868][415]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.10-03.43.13:982][482]BlueprintLog: New page: Compile TowerControllerAiBP
+[2017.10.10-03.43.14:680][500]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-03.43.14:714][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/TowerControllerAiBP" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset" SILENT=true
+[2017.10.10-03.43.14:790][500]LogSavePackage: Save=30.79ms
+[2017.10.10-03.43.14:790][500]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/TowerControllerAiBP38900F544BDCDCBAFFF043A7C54F2936.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset'
+[2017.10.10-03.43.14:795][500]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset
+[2017.10.10-03.43.30:915][416]BlueprintLog: New page: Compile TowerControllerAiBP
+[2017.10.10-03.43.31:583][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/TowerControllerAiBP" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset" SILENT=true
+[2017.10.10-03.43.31:601][438]LogSavePackage: Save=12.67ms
+[2017.10.10-03.43.31:601][438]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/TowerControllerAiBPD03C02C141BAD8FC88302D86E645C8CF.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset'
+[2017.10.10-03.43.31:606][438]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset
+[2017.10.10-03.43.49:474][473]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.10-03.44.13:152][842]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.10-03.44.47:842][845]BlueprintLog: New page: Compile TowerControllerAiBP
+[2017.10.10-03.44.48:722][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/TowerControllerAiBP" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset" SILENT=true
+[2017.10.10-03.44.48:741][887]LogSavePackage: Save=14.16ms
+[2017.10.10-03.44.48:741][887]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/TowerControllerAiBP943C02DC4E36387E321BFEACA456D52E.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset'
+[2017.10.10-03.44.48:746][887]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset
+[2017.10.10-03.44.59:271][511]BlueprintLog: New page: Compile TowerControllerAiBP
+[2017.10.10-03.44.59:758][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/TowerControllerAiBP" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset" SILENT=true
+[2017.10.10-03.44.59:778][528]LogSavePackage: Save=15.17ms
+[2017.10.10-03.44.59:778][528]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/TowerControllerAiBP5C095F6340E46EEB2EC5F8831E11DC96.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset'
+[2017.10.10-03.44.59:783][528]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset
+[2017.10.10-03.46.23:388][445]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.46.24:090][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.46.24:149][463]LogSavePackage: Save=50.97ms
+[2017.10.10-03.46.24:149][463]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_TowerE41C8D2D4B06C59F1ADFC2BB79417884.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.46.24:154][463]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.46.37:199][225]BlueprintLog: New page: Compile TowerControllerAiBP
+[2017.10.10-03.46.37:713][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/TowerControllerAiBP" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset" SILENT=true
+[2017.10.10-03.46.37:733][244]LogSavePackage: Save=15.28ms
+[2017.10.10-03.46.37:733][244]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/TowerControllerAiBP130D772741056148CC8AA2B6497F5A41.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset'
+[2017.10.10-03.46.37:736][244]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset
+[2017.10.10-03.47.26:556][ 72]BlueprintLog: New page: Compile TowerControllerAiBP
+[2017.10.10-03.47.27:150][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/TowerControllerAiBP" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset" SILENT=true
+[2017.10.10-03.47.27:174][ 95]LogSavePackage: Save=18.65ms
+[2017.10.10-03.47.27:174][ 95]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/TowerControllerAiBPF407EA41477D267DF4651F9832A89DEF.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset'
+[2017.10.10-03.47.27:179][ 95]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset
+[2017.10.10-03.47.30:347][284]BlueprintLog: New page: Compile TowerControllerAiBP
+[2017.10.10-03.47.30:896][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/TowerControllerAiBP" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset" SILENT=true
+[2017.10.10-03.47.30:920][305]LogSavePackage: Save=18.73ms
+[2017.10.10-03.47.30:921][305]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/TowerControllerAiBP4A2C0B0B4F0C47DDFBF8C9AEFC51BA07.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset'
+[2017.10.10-03.47.30:923][305]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/TowerControllerAiBP.uasset
+[2017.10.10-03.47.32:111][375]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.10-03.47.32:136][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.10-03.47.32:167][375]PIE: New page: PIE session: test01 (Oct 10, 2017, 7:47:32 PM)
+[2017.10.10-03.47.32:175][375]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test01
+[2017.10.10-03.47.32:198][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022729s)
+[2017.10.10-03.47.32:199][375]LogAIModule: Creating AISystem for world test01
+[2017.10.10-03.47.32:199][375]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2017.10.10-03.47.32:200][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test01.test01 to /Game/Maps/UEDPIE_0_test01.test01 (0.031977s)
+[2017.10.10-03.47.32:268][375]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.10.10-03.47.32:534][375]LogInit: FAudioDevice initialized.
+[2017.10.10-03.47.32:714][375]LogLoad: Game class is 'BP_TDGameMode_C'
+[2017.10.10-03.47.32:758][375]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test01.test01 up for play (max tick rate 60) at 2017.10.10-11.47.32
+[2017.10.10-03.47.32:802][375]LogWorld: Bringing up level for play took: 0.048497
+[2017.10.10-03.47.32:910][375]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.10-03.47.32:937][375]LogBlueprintUserMessages: [BP_Enemy_2] 375.0
+[2017.10.10-03.47.32:937][375]LogBlueprintUserMessages: [BP_Enemy2_2] 600.0
+[2017.10.10-03.47.32:937][375]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_test01 0.197
+[2017.10.10-03.48.02:084][ 77]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.48.03:066][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.48.03:112][ 99]LogSavePackage: Save=40.60ms
+[2017.10.10-03.48.03:112][ 99]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_TowerBB3D9F6A4DC2FBF1717CB58B99CB02DD.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.48.03:117][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.48.04:726][195]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.10-03.48.04:745][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.10-03.48.04:745][195]PIE: New page: PIE session: test01 (Oct 10, 2017, 7:48:04 PM)
+[2017.10.10-03.48.04:745][195]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test01
+[2017.10.10-03.48.04:752][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006885s)
+[2017.10.10-03.48.04:753][195]LogAIModule: Creating AISystem for world test01
+[2017.10.10-03.48.04:753][195]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2017.10.10-03.48.04:753][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test01.test01 to /Game/Maps/UEDPIE_0_test01.test01 (0.008193s)
+[2017.10.10-03.48.04:814][195]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.10.10-03.48.05:072][195]LogInit: FAudioDevice initialized.
+[2017.10.10-03.48.05:106][195]LogLoad: Game class is 'BP_TDGameMode_C'
+[2017.10.10-03.48.05:111][195]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test01.test01 up for play (max tick rate 60) at 2017.10.10-11.48.05
+[2017.10.10-03.48.05:112][195]LogWorld: Bringing up level for play took: 0.003492
+[2017.10.10-03.48.05:114][195]LogBlueprintUserMessages: [BP_Enemy_2] 375.0
+[2017.10.10-03.48.05:114][195]LogBlueprintUserMessages: [BP_Enemy2_2] 600.0
+[2017.10.10-03.48.05:114][195]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_test01 0.374
+[2017.10.10-03.48.05:260][202]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array EnemyArray of length 0!
+[2017.10.10-03.48.05:260][202]LogBlueprintUserMessages: [BP_Tower_542] Hit On 
+[2017.10.10-03.48.05:754][232]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.06:254][262]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.06:754][292]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.07:255][322]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.07:754][352]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.08:256][380]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.08:756][410]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.09:255][440]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.09:755][470]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.10:256][500]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.10:756][530]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.11:256][560]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.11:757][590]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.12:256][620]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.12:755][650]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.13:256][680]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.13:756][710]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.14:256][740]LogBlueprintUserMessages: [BP_Tower_542] Hit On BP_Enemy2
+[2017.10.10-03.48.30:795][708]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.48.31:438][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.48.31:483][732]LogSavePackage: Save=40.88ms
+[2017.10.10-03.48.31:483][732]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Tower5D190F5045C1A7B38A4CA58200D83C9B.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.48.31:488][732]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.48.54:983][133]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.48.55:563][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.48.55:609][153]LogSavePackage: Save=40.26ms
+[2017.10.10-03.48.55:609][153]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_TowerAA7601C740208E0668DE9099861D00F9.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.48.55:614][153]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.49.30:222][188]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.49.30:804][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.49.30:846][204]LogSavePackage: Save=37.59ms
+[2017.10.10-03.49.30:846][204]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_TowerE3504F3E46C34A8C064C50B4491CCEC5.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.49.30:851][204]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.49.49:083][280]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.49.49:736][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.49.49:778][300]LogSavePackage: Save=37.76ms
+[2017.10.10-03.49.49:778][300]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Tower03F0C99046DD632EEFB8A094DFD5C60C.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.49.49:784][300]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.50.19:920][ 87]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.50.20:849][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.50.20:894][103]LogSavePackage: Save=39.37ms
+[2017.10.10-03.50.20:894][103]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_TowerF62840684334B7F34D156080FC3EA723.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.50.20:899][103]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.50.25:944][401]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.50.26:562][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.50.26:619][419]LogSavePackage: Save=52.03ms
+[2017.10.10-03.50.26:619][419]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Tower5CA1A1754E4EA60008E939BE87CDFCE3.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.50.26:624][419]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.50.54:339][ 56]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.50.54:350][ 56]LogBlueprint:Error: [Compiler BP_Tower] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.10.10-03.50.54:614][ 56]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.10.10-03.50.54:614][ 56]LogBlueprint:Warning: [Compiler BP_Tower] Warning [0663.02] Compile of BP_Tower failed. 1 Fatal Issue(s) 0 Warning(s) [in 275 ms] (/Game/BluePrints/Tower/BP_Tower.BP_Tower)
+[2017.10.10-03.50.55:013][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.50.55:057][ 76]LogSavePackage: Save=39.21ms
+[2017.10.10-03.50.55:057][ 76]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Tower9B5E376D441FC60A309DC6835297936C.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.50.55:062][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.51.01:806][478]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.10-03.51.04:833][655]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.10-03.51.05:961][715]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.51.05:974][715]LogBlueprint:Error: [Compiler BP_Tower] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.10.10-03.51.05:974][715]LogBlueprint:Error: [Compiler BP_Tower] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.10.10-03.51.06:239][715]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.10.10-03.51.06:239][715]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.10.10-03.51.06:240][715]LogBlueprint:Warning: [Compiler BP_Tower] Warning [0674.64] Compile of BP_Tower failed. 2 Fatal Issue(s) 0 Warning(s) [in 279 ms] (/Game/BluePrints/Tower/BP_Tower.BP_Tower)
+[2017.10.10-03.51.06:724][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.51.06:769][740]LogSavePackage: Save=39.78ms
+[2017.10.10-03.51.06:769][740]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Tower396680E54834B236BEE1F2822A3B8D56.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.51.06:774][740]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.51.46:389][ 51]BlueprintLog: New page: Compile BP_Tower
+[2017.10.10-03.51.46:958][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.51.47:008][ 71]LogSavePackage: Save=43.21ms
+[2017.10.10-03.51.47:009][ 71]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_TowerC5C04B944A8BE0CD2B773D97768D0F62.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.51.47:013][ 71]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.52.18:410][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Tower" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset" SILENT=true
+[2017.10.10-03.52.18:445][942]LogSavePackage: Save=28.99ms
+[2017.10.10-03.52.18:445][942]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Tower1C1579174FB0CE41A42110AA79171428.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset'
+[2017.10.10-03.52.18:450][942]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Tower.uasset
+[2017.10.10-03.52.37:364][ 44]LogSlate: Took 0.014995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.10-03.52.40:689][240]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.52.41:513][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Bullet" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset" SILENT=true
+[2017.10.10-03.52.41:551][259]LogSavePackage: Save=26.05ms
+[2017.10.10-03.52.41:551][259]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_BulletF47B9A6B4EC7A3AE447881866C0EE024.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset'
+[2017.10.10-03.52.41:556][259]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset
+[2017.10.10-03.53.06:706][752]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.53.07:449][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Bullet" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset" SILENT=true
+[2017.10.10-03.53.07:481][767]LogSavePackage: Save=26.78ms
+[2017.10.10-03.53.07:481][767]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Bullet299D3F3948EEAE53A701C7832100C308.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset'
+[2017.10.10-03.53.07:486][767]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset
+[2017.10.10-03.53.54:533][504]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.53.55:317][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Bullet" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset" SILENT=true
+[2017.10.10-03.53.55:350][522]LogSavePackage: Save=27.30ms
+[2017.10.10-03.53.55:350][522]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Bullet29EC4B1E4C56ECC4BFEA8DB3174B3951.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset'
+[2017.10.10-03.53.55:355][522]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset
+[2017.10.10-03.54.27:244][429]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.54.27:249][429]LogBlueprint:Warning: [Compiler BP_Bullet] Warning  Sequence  has no valid output
+[2017.10.10-03.54.27:404][429]BlueprintEditorCompileResults:Warning: Warning  Sequence  has no valid output
+[2017.10.10-03.54.27:404][429]LogBlueprint:Warning: [Compiler BP_Bullet] Warning [0875.80] Compile of BP_Bullet successful, but with 1 Warning(s) [in 160 ms] (/Game/BluePrints/Tower/BP_Bullet.BP_Bullet)
+[2017.10.10-03.54.28:409][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Bullet" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset" SILENT=true
+[2017.10.10-03.54.28:442][485]LogSavePackage: Save=27.47ms
+[2017.10.10-03.54.28:442][485]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_BulletE451A63042C67BC4926BC195C6CFFDF0.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset'
+[2017.10.10-03.54.28:447][485]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset
+[2017.10.10-03.54.51:534][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test01" FILE="../../../../../../UnrealWorks/考核2/Saved/Autosaves/Game/Maps/test01_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.10-03.54.51:616][861]LogSavePackage: Save=75.46ms
+[2017.10.10-03.54.51:616][861]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/test01_Auto13A6E26ED4483340A5763BB91DBFEF12D.tmp' to '../../../../../../UnrealWorks/考核2/Saved/Autosaves/Game/Maps/test01_Auto1.umap'
+[2017.10.10-03.54.51:618][861]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Saved/Autosaves/Game/Maps/test01_Auto1.umap
+[2017.10.10-03.54.51:630][861]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/test01' took 0.161
+[2017.10.10-03.54.51:630][861]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.161
+[2017.10.10-03.57.43:414][649]LogEditorTransaction: Undo Remove Components
+[2017.10.10-03.57.46:084][806]LogEditorTransaction: Undo Toggle Absolute Scale
+[2017.10.10-03.57.46:556][832]LogEditorTransaction: Undo Toggle Absolute Scale
+[2017.10.10-03.57.46:983][856]LogEditorTransaction: Undo Edit Properties
+[2017.10.10-03.57.48:114][922]LogEditorTransaction: Undo Edit Properties
+[2017.10.10-03.57.48:341][934]LogEditorTransaction: Undo Edit Properties
+[2017.10.10-03.57.48:621][949]LogEditorTransaction: Undo Edit Capsule Half Height
+[2017.10.10-03.57.48:873][962]LogEditorTransaction: Undo Edit Capsule Half Height
+[2017.10.10-03.57.49:071][972]LogEditorTransaction: Undo Edit Capsule Radius
+[2017.10.10-03.57.49:230][980]LogEditorTransaction: Undo Edit Capsule Half Height
+[2017.10.10-03.57.49:392][988]LogEditorTransaction: Undo Edit Capsule Radius
+[2017.10.10-03.57.49:552][996]LogEditorTransaction: Undo Edit Capsule Half Height
+[2017.10.10-03.57.49:727][  5]LogEditorTransaction: Undo Edit Capsule Half Height
+[2017.10.10-03.57.49:903][ 14]LogEditorTransaction: Undo Edit Capsule Radius
+[2017.10.10-03.57.50:066][ 22]LogEditorTransaction: Undo Edit Capsule Radius
+[2017.10.10-03.57.50:225][ 30]LogEditorTransaction: Undo Edit Capsule Half Height
+[2017.10.10-03.57.50:434][ 41]LogEditorTransaction: Undo Make New Scene Root
+[2017.10.10-03.57.50:645][ 51]LogEditorTransaction: Undo Add Component
+[2017.10.10-03.58.19:601][771]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.58.19:609][771]LogBlueprint:Warning: [Compiler BP_Bullet] Warning  Sequence  has no valid output
+[2017.10.10-03.58.20:219][771]BlueprintEditorCompileResults:Warning: Warning  Sequence  has no valid output
+[2017.10.10-03.58.20:219][771]LogBlueprint:Warning: [Compiler BP_Bullet] Warning [1108.62] Compile of BP_Bullet successful, but with 1 Warning(s) [in 617 ms] (/Game/BluePrints/Tower/BP_Bullet.BP_Bullet)
+[2017.10.10-03.58.20:715][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Bullet" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset" SILENT=true
+[2017.10.10-03.58.20:754][791]LogSavePackage: Save=31.82ms
+[2017.10.10-03.58.20:754][791]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Bullet6E7EA77D4C60BD77EDF47BA10D073B32.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset'
+[2017.10.10-03.58.20:759][791]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset
+[2017.10.10-03.58.32:725][479]LogEditorActor: Deleted Actor: BP_Bullet_C
+[2017.10.10-03.58.32:760][479]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2017.10.10-03.59.24:699][530]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.59.24:710][530]LogBlueprint:Warning: [Compiler BP_Bullet] Warning  Sequence  has no valid output
+[2017.10.10-03.59.24:898][530]BlueprintEditorCompileResults:Warning: Warning  Sequence  has no valid output
+[2017.10.10-03.59.24:898][530]LogBlueprint:Warning: [Compiler BP_Bullet] Warning [1173.30] Compile of BP_Bullet successful, but with 1 Warning(s) [in 198 ms] (/Game/BluePrints/Tower/BP_Bullet.BP_Bullet)
+[2017.10.10-03.59.27:406][676]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.59.27:949][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Bullet" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset" SILENT=true
+[2017.10.10-03.59.27:987][694]LogSavePackage: Save=32.48ms
+[2017.10.10-03.59.27:987][694]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Bullet519E437040431F4B8896E9A2CFD45733.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset'
+[2017.10.10-03.59.27:992][694]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset
+[2017.10.10-03.59.35:862][136]BlueprintLog: New page: Compile BP_Bullet
+[2017.10.10-03.59.36:451][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Tower/BP_Bullet" FILE="../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset" SILENT=true
+[2017.10.10-03.59.36:488][155]LogSavePackage: Save=32.29ms
+[2017.10.10-03.59.36:488][155]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/BP_Bullet96949E60494CFA0AA60B0FA62656E538.tmp' to '../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset'
+[2017.10.10-03.59.36:493][155]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/BluePrints/Tower/BP_Bullet.uasset
+[2017.10.10-03.59.37:721][227]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.10-03.59.37:745][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.10-03.59.37:745][227]PIE: New page: PIE session: test01 (Oct 10, 2017, 7:59:37 PM)
+[2017.10.10-03.59.37:745][227]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test01
+[2017.10.10-03.59.37:751][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006237s)
+[2017.10.10-03.59.37:752][227]LogAIModule: Creating AISystem for world test01
+[2017.10.10-03.59.37:752][227]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2017.10.10-03.59.37:753][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test01.test01 to /Game/Maps/UEDPIE_0_test01.test01 (0.007789s)
+[2017.10.10-03.59.37:814][227]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.10.10-03.59.38:077][227]LogInit: FAudioDevice initialized.
+[2017.10.10-03.59.38:114][227]LogLoad: Game class is 'BP_TDGameMode_C'
+[2017.10.10-03.59.38:119][227]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test01.test01 up for play (max tick rate 60) at 2017.10.10-11.59.38
+[2017.10.10-03.59.38:120][227]LogWorld: Bringing up level for play took: 0.003826
+[2017.10.10-03.59.38:122][227]LogBlueprintUserMessages: [BP_Enemy_2] 375.0
+[2017.10.10-03.59.38:122][227]LogBlueprintUserMessages: [BP_Enemy2_2] 600.0
+[2017.10.10-03.59.38:141][227]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_test01 1.401
+[2017.10.10-03.59.38:273][234]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array EnemyArray of length 0!
+[2017.10.10-03.59.38:774][264]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.39:284][290]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.39:784][320]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.40:286][350]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.40:784][380]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.41:284][410]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.41:783][440]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.42:283][470]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.42:783][500]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.43:283][530]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.44:283][590]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.44:783][620]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.45:283][650]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.45:784][680]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-03.59.59:851][504]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.10-03.59.59:875][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.10-03.59.59:875][504]PIE: New page: PIE session: test01 (Oct 10, 2017, 7:59:59 PM)
+[2017.10.10-03.59.59:876][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test01
+[2017.10.10-03.59.59:881][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005608s)
+[2017.10.10-03.59.59:882][504]LogAIModule: Creating AISystem for world test01
+[2017.10.10-03.59.59:883][504]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2017.10.10-03.59.59:883][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test01.test01 to /Game/Maps/UEDPIE_0_test01.test01 (0.007420s)
+[2017.10.10-03.59.59:944][504]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.10.10-04.00.00:201][504]LogInit: FAudioDevice initialized.
+[2017.10.10-04.00.00:235][504]LogLoad: Game class is 'BP_TDGameMode_C'
+[2017.10.10-04.00.00:239][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test01.test01 up for play (max tick rate 60) at 2017.10.10-12.00.00
+[2017.10.10-04.00.00:240][504]LogWorld: Bringing up level for play took: 0.003576
+[2017.10.10-04.00.00:242][504]LogBlueprintUserMessages: [BP_Enemy_2] 375.0
+[2017.10.10-04.00.00:242][504]LogBlueprintUserMessages: [BP_Enemy2_2] 600.0
+[2017.10.10-04.00.00:242][504]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_test01 -0.498
+[2017.10.10-04.00.00:384][511]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array EnemyArray of length 0!
+[2017.10.10-04.00.00:885][541]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.01:385][571]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.01:885][601]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.02:385][631]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.02:885][661]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.03:385][691]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.03:885][721]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.04:385][751]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.04:885][781]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.05:390][811]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.06:390][871]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.06:890][901]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.07:390][931]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.07:890][961]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.08:390][991]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.08:890][ 21]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.09:390][ 51]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.09:890][ 81]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.10:390][111]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.10:890][141]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.11:890][201]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.12:390][231]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-510.000 Y=170.000 Z=400.000] for [BP_Bullet_C]
+[2017.10.10-04.00.17:748][545]LogEditorViewport: Clicking on Actor (LMB): BP_Bullet_C (BP_Bullet)
+[2017.10.10-04.00.18:952][616]Cmd: DELETE
+[2017.10.10-04.00.18:952][616]Cmd: ACTOR DELETE
+[2017.10.10-04.00.19:039][616]LogEditorActor: Deleted Actor: BP_Bullet_C
+[2017.10.10-04.00.19:073][616]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.10.10-04.00.20:658][711]LogEditorViewport: Clicking on Actor (LMB): BP_Tower_C (BP_Tower)
+[2017.10.10-04.00.28:699][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test01" FILE="../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.10-04.00.28:834][184]LogSavePackage: Save=65.20ms
+[2017.10.10-04.00.28:834][184]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/test01B584D52549F348D895CE5AAE61A52BFA.tmp' to '../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap'
+[2017.10.10-04.00.28:839][184]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap
+[2017.10.10-04.01.49:029][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test01" FILE="../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.10-04.01.49:128][989]LogSavePackage: Save=65.72ms
+[2017.10.10-04.01.49:128][989]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/test0135E4D2E64C407C23CEB8C3A2A5A51C73.tmp' to '../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap'
+[2017.10.10-04.01.49:133][989]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap
+[2017.10.10-04.01.54:843][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test01" FILE="../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.10-04.01.54:946][328]LogSavePackage: Save=68.97ms
+[2017.10.10-04.01.54:946][328]LogSavePackage: Moving '../../../../../../UnrealWorks/考核2/Saved/test01EAEF12354873F559786A2CAD128B618E.tmp' to '../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap'
+[2017.10.10-04.01.54:948][328]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealWorks/考核2/Content/Maps/test01.umap
+[2017.10.10-04.02.07:412][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.10-04.02.07:479][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.10-04.02.07:790][ 60]Cmd: QUIT_EDITOR
+[2017.10.10-04.02.08:406][ 60]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2017.10.10-04.02.08:447][ 60]LogExit: Preparing to exit.
+[2017.10.10-04.02.09:096][ 60]LogDirectoryWatcher: A directory notification for 'E:/UnrealWorks/考核2/Content/' was aborted.
+[2017.10.10-04.02.09:143][ 60]LogExit: Editor shut down
+[2017.10.10-04.02.09:144][ 60]LogExit: Transaction tracking system shut down
+[2017.10.10-04.02.09:281][ 60]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.10-04.02.09:281][ 60]LogExit: Object subsystem successfully closed.
+[2017.10.10-04.02.09:297][ 60]LogD3D11RHI: Shutdown
+[2017.10.10-04.02.09:297][ 60]LogD3D11RHI: CleanupD3DDevice
+[2017.10.10-04.02.09:433][ 60]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.10-04.02.09:482][ 60]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.10.10-04.02.09:482][ 60]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (502)
+[2017.10.10-04.02.09:482][ 60]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.10.10-04.02.09:482][ 60]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.10.10-04.02.09:483][ 60]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.10.10-04.02.09:483][ 60]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.10.10-04.02.09:483][ 60]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.10.10-04.02.09:483][ 60]LogDirectoryWatcher: A directory notification for 'E:/UNREAL/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.10.10-04.02.09:485][ 60]LogDirectoryWatcher: A directory notification for 'E:/UnrealWorks/考核2/Content/Collections/' was aborted.
+[2017.10.10-04.02.09:485][ 60]LogDirectoryWatcher: A directory notification for 'E:/UnrealWorks/考核2/Content/Developers/全世界最帅的人/Collections/' was aborted.
+[2017.10.10-04.02.09:485][ 60]LogDirectoryWatcher: A directory notification for 'E:/UnrealWorks/考核2/Saved/Collections/' was aborted.
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module SceneOutliner (484)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.10.10-04.02.09:485][ 60]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.10.10-04.02.09:486][ 60]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.10.10-04.02.10:354][ 60]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.10.10-04.02.10:355][ 60]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.10.10-04.02.10:355][ 60]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.10.10-04.02.10:355][ 60]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.10.10-04.02.10:355][ 60]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.10.10-04.02.10:355][ 60]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.10.10-04.02.10:355][ 60]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.10.10-04.02.10:355][ 60]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.10.10-04.02.10:387][ 60]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.10.10-04.02.10:387][ 60]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.10.10-04.02.10:387][ 60]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.10.10-04.02.10:387][ 60]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.10.10-04.02.10:387][ 60]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.10.10-04.02.10:387][ 60]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.10.10-04.02.10:388][ 60]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.10.10-04.02.10:388][ 60]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.10.10-04.02.10:388][ 60]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.10.10-04.02.10:406][ 60]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.10.10-04.02.10:406][ 60]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.10.10-04.02.10:409][ 60]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.10.10-04.02.10:409][ 60]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.10.10-04.02.10:410][ 60]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.10.10-04.02.10:592][ 60]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.10.10-04.02.10:593][ 60]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.10.10-04.02.10:595][ 60]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.10.10-04.02.10:595][ 60]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.10.10-04.02.10:595][ 60]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.10.10-04.02.10:597][ 60]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.10-04.02.10:599][ 60]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.10.10-04.02.10:599][ 60]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.10.10-04.02.10:599][ 60]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.10.10-04.02.10:599][ 60]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.10.10-04.02.10:699][ 60]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.10.10-04.02.10:800][ 60]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.10.10-04.02.10:801][ 60]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.10.10-04.02.10:801][ 60]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.10.10-04.02.10:801][ 60]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.10.10-04.02.10:801][ 60]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.10.10-04.02.10:801][ 60]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.10.10-04.02.10:826][ 60]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.10.10-04.02.10:826][ 60]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.10.10-04.02.10:826][ 60]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.10.10-04.02.10:826][ 60]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.10.10-04.02.10:826][ 60]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.10.10-04.02.10:826][ 60]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.10.10-04.02.10:829][ 60]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.10.10-04.02.10:829][ 60]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.10.10-04.02.10:829][ 60]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.10.10-04.02.10:829][ 60]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.10.10-04.02.10:829][ 60]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.10.10-04.02.10:829][ 60]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.10.10-04.02.10:924][ 60]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.10-04.02.10:924][ 60]LogDirectoryWatcher: A directory notification for '../../../../../../UnrealWorks/考核2/Content/' was aborted.
+[2017.10.10-04.02.10:924][ 60]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.10-04.02.10:925][ 60]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.10.10-04.02.10:926][ 60]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.10.10-04.02.10:955][ 60]LogDerivedDataCache: Shutdown
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.10.10-04.02.10:955][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.10.10-04.02.10:956][ 60]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.10.10-04.02.10:956][ 60]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.10.10-04.02.10:956][ 60]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.10-04.02.10:956][ 60]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B83C966A8-46E7-494B-EEAC-2A8F2EA1F966%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=d6559f70448a56758f2eb4a9d243a887%7C33441728c00f44d6b504be1a72ae9599%7C6b569e09-79c4-4f76-93fc-ad8306033223&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.10-04.02.10:980][ 60]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.10.10-04.02.10:983][ 60]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.10-04.02.10:984][ 60]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.10-04.02.10:984][ 60]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.10-04.02.10:984][ 60]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.10-04.02.10:984][ 60]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.10-04.02.10:992][ 60]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.10-04.02.10:997][ 60]LogExit: Exiting.
+[2017.10.10-04.02.11:001][ 60]Log file closed, 10/10/17 12:02:11
